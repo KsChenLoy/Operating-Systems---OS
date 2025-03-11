@@ -1,0 +1,32 @@
+
+
+---
+
+### **2. .gitignore**
+This prevents unnecessary files from being tracked by Git.
+
+```gitignore
+# Compiled binary
+memory_manager
+*.exe
+*.out
+*.o
+
+# Build artifacts
+*.a
+*.so
+*.dylib
+
+# IDE and Editor files
+*.swp
+*.swo
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Makefile output
+Makefile.in
